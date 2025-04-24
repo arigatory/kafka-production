@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MessageKey",
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Уникальный идентификатор сообщения"
+      }
+    },
+    "required": ["id"]
+  }
